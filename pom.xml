@@ -4,7 +4,7 @@
 
     <groupId>ar.com.onready</groupId>
     <artifactId>spring-resttemplate-logger</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>spring-resttemplate-logger</name>
@@ -125,7 +125,7 @@
         <connection>scm:git:git://github.com/onready/spring-resttemplate-logger.git</connection>
         <developerConnection>scm:git:git@github.com:onready/spring-resttemplate-logger.git</developerConnection>
         <url>https://github.com/onready/spring-resttemplate-logger</url>
-        <tag>spring-resttemplate-logger-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <profiles>
