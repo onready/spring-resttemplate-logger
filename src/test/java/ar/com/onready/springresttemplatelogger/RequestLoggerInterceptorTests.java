@@ -1,4 +1,4 @@
-package com.onready.springresttemplatelogger;
+package ar.com.onready.springresttemplatelogger;
 
 import org.junit.Test;
 import org.springframework.http.MediaType;

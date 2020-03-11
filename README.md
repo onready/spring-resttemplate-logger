@@ -18,7 +18,7 @@ Add the dependency to `pom.xml`
 
 ```xml
 <dependency>
-   <groupId>com.onready</groupId>
+   <groupId>ar.com.onready</groupId>
    <artifactId>spring-resttemplate-logger</artifactId>
    <version>1.0.0</version>
 </dependency>
@@ -37,19 +37,6 @@ interceptors.add(new RequestLoggerInterceptor());
 restTemplate.setInterceptors(interceptors);
 ``` 
 
-#### With Spring Boot
-There is a Spring boot starter for this project
-
-```xml
-<dependency>
-   <groupId>com.onready</groupId>
-   <artifactId>spring-resttemplate-logger-starter</artifactId>
-   <version>1.0.0</version>
-</dependency>
-```
-
-If you have a RestTemplate bean, it will autoconfigure it with the interceptor and the request factory.
-
 
 ## Important
-In order to view the logs, the package `com.onready.springrequestlogger` must be log in debug mode. 
+In order to view the logs, the package `ar.com.onready.springrequestlogger` must be log in debug mode. 
