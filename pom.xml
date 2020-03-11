@@ -9,6 +9,22 @@
 
     <name>spring-resttemplate-logger</name>
     <description>A simple way to log RestTemplate requests and responses</description>
+    <url>https://github.com/onready/spring-resttemplate-logger</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <email>juan@onready.com.ar</email>
+            <name>Juan Cernadas</name>
+            <url>https://github.com/cernadasjuan</url>
+            <id>cernadasjuan</id>
+        </developer>
+    </developers>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
